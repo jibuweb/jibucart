@@ -1,0 +1,14 @@
+<h2>Products list</h2>
+<ul>
+  <li class="product-base" *ngFor= 'let product of products.productItems'>    
+    <img class="picSize" src="{{product.img}}" alt="" >
+    <div class="prodName">{{product.name}}</div>
+    <div class="price">Rs {{product.price}}</div>
+    <!-- <div class="size">{{product.size[0].size}}</div> -->
+
+  </li>
+  
+  
+  <!-- <pre>{{products|json}}</pre> -->
+
+</ul>
